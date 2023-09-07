@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - blablabla
- * betty my a$$
- * return: blabla
+ * main - ssss
+ *
+ * Description: betty my a$$
+ *
+ * Return: ssssss
 */
 int main(void)
 {
