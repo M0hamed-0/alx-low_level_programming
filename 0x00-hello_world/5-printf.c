@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
+ * main - blablabla
+ * 
  * betty my a$$
+ * 
+ * return: blabla
 */
 int main(void)
 {
