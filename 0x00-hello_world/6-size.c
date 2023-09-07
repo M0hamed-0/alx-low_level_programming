@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+
 /**
  * main - ssss
  *
@@ -7,6 +7,8 @@ int main(void)
  *
  * Return: ssssss
 */
+
+int main(void)
 
 {
 
