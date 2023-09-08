@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "input file name"
+read var
+chmod +x ${var}
+echo "input your msg"
+read var
+git add .
+git commit -m "${var}"
+git push
