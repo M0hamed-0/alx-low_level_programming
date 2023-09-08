@@ -1,9 +1,9 @@
 #include<unistd.h>
 /**
  * main - entry point
- * 
+ *
  * Description: blablalba
- * 
+ *
  * Return: 1
 */
 int main(void)
