@@ -6,31 +6,24 @@
  *
  * Return: ssssss
 */
-int main(void)
+int main(void) 
 {
-int num1_tens, num1_ones, num2_tens, num2_ones;
-for (num1_tens = 0; num1_tens <= 9; num1_tens++)
+int i, j;
+for (i = 0; i <= 99; i++)
 {
-for (num1_ones = 0; num1_ones <= 9; num1_ones++)
+for (j = 0; j <= 99; j++)
 {
-for (num2_tens = num1_tens; num2_tens <= 9; num2_tens++)
-{
-for (num2_ones = (num1_tens == num2_tens) ? num1_ones + 1 : 0; num2_ones <= 9; num2_ones++)
-{
-putchar(num1_tens + '0');
-putchar(num1_ones + '0');
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
 putchar(' ');
-putchar(num2_tens + '0');
-putchar(num2_ones + '0');
-if (!(num1_tens == 9 && num1_ones == 9 && num2_tens == 9 && num2_ones == 9))
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
+if (i != 99 || j != 99)
 {
 putchar(',');
 putchar(' ');
 }
 }
 }
-}
-}
-putchar('\n');
-return 0;
+return (0);
 }
