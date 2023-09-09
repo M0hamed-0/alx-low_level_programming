@@ -19,7 +19,8 @@ l++;
 }
 {
 int j;
-for (j = i - 1; j >= 0; j--) {
+for (j = i - 1; j >= 0; j--)
+{
 putchar(characters[j]);
 }
 putchar('\n');
