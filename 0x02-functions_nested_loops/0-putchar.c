@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(void)
 /**
- * main - main
+ * main - Entry point of the program
  *
- * Description: Description
+ * Description: This function is the entry point of the program.
+ * It prints "_putchar" to the standard output.
  *
- * Return: Return
+ * Return: Always 0 (success)
 */
 {
 printf("_putchar\n");
