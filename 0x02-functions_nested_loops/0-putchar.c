@@ -1,5 +1,4 @@
 #include <stdio.h>
-int main(void)
 /**
  * main: Entry point of the program
  *
@@ -8,6 +7,7 @@ int main(void)
  *
  * Return: Always 0 (success)
 */
+int main(void)
 {
 printf("_putchar\n");
 return (0);
