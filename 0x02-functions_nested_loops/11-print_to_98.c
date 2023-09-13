@@ -11,9 +11,9 @@
  */
 void print_to_98(int n)
 {
-for (n = n; n <= 98; n++)
+for (n = n; n < 98; n++)
 {
     printf("%i, ",n);
 }
-printf("\n");
+printf("98\n");
 }
