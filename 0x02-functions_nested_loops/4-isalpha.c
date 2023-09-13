@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - his fucntion prints the alphabet from a to z
+ * _isalpha - his fucntion prints the alphabet from a to z
  *
  * @c: edfwfef
  *
