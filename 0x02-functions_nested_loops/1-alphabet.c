@@ -2,6 +2,8 @@
 /**
  * main - check the code
  *
+ * print_alphabet: sdfaff
+ * 
  * Return: Always 0.
  */
 void print_alphabet(void)
