@@ -3,7 +3,7 @@
  * _islower - his fucntion prints the alphabet from a to z
  *
  * @c: edfwfef
- * 
+ *
  * Description: this fucntion prints the alphabet from a to z
  *
  * Return: Always 0.
