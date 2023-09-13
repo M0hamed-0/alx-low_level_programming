@@ -2,7 +2,7 @@
 /**
  * print_sign - his fucntion prints the alphabet from a to z
  *
- * @c: edfwfef
+ * @n: edfwfef
  *
  * Description: this fucntion prints the alphabet from a to z
  *
