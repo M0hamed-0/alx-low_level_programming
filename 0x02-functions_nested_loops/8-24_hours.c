@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * jack_bauer - his fucntion prints the alphabet from a to z
  *
