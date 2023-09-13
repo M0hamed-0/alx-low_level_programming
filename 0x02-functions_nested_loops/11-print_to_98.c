@@ -1,23 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - his fucntion prints the alphabet from a to z
- *
+ * print_to_98 - blablabla
  * @n: blablabla
  *
- * Description: this fucntion prints the alphabet from a to z
+ * Description: blablabla
  *
- * Return: Always 0.
+ * Return: blablabla
  */
 void print_to_98(int n)
 {
 for (n = n; n < 98; n++)
 {
-printf("%i, ",n);
+printf("%i, ", n);
 }
 for (n = n; n > 98; n--)
 {
-printf("%i, ",n);
+printf("%i, ", n);
 }
 printf("98\n");
 }
