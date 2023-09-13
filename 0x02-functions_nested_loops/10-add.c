@@ -2,6 +2,10 @@
 /**
  * add - his fucntion prints the alphabet from a to z
  *
+ * @y: blabla
+ * 
+ * @x: blabla
+ * 
  * Description: this fucntion prints the alphabet from a to z
  *
  * Return: Always 0.
