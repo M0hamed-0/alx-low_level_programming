@@ -15,5 +15,9 @@ for (n = n; n < 98; n++)
 {
     printf("%i, ",n);
 }
+for (n = n; n > 98; n--)
+{
+    printf("%i, ",n);
+}
 printf("98\n");
 }
