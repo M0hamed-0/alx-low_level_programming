@@ -2,8 +2,8 @@
 /**
  * main - check the code
  *
- * print_alphabet: sdfaff
- * 
+ * print_alphabet: this fucntion prints the alphabet from a to z
+ *
  * Return: Always 0.
  */
 void print_alphabet(void)
