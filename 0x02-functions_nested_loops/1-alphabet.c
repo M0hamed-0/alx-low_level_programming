@@ -2,7 +2,7 @@
 /**
  * main - check the code
  *
- * print_alphabet: this fucntion prints the alphabet from a to z
+ * Description: this fucntion prints the alphabet from a to z
  *
  * Return: Always 0.
  */
