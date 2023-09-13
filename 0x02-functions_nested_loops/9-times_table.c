@@ -25,5 +25,4 @@ _putchar((p % 10) + 48);
 }
 _putchar('\n');
 }
-return (0);
 }
