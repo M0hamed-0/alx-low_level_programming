@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - his fucntion prints the alphabet from a to z
  *
  * Description: this fucntion prints the alphabet from a to z
  *
