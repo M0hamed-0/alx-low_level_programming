@@ -8,9 +8,7 @@
  */
 int _islower(int c)
 {
-if (c <= 'a' && c >= 'z')
-return(1);
-if (c <= 'A' && c >= 'Z')
+if (c >= 97 && c <= 122)
 return(1);
 return(0);
 }
