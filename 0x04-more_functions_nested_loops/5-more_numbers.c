@@ -16,7 +16,7 @@ for (y = 0; y <= 14; y++)
 {
 if (y >= 10)
 {
-_putchar('1');
+_putchar ('1');
 }
 _putchar(y % 10 + '0');
 }
