@@ -8,13 +8,12 @@
  */
 void print_most_numbers(void)
 {
-int x = 48;
-while (x <= 57)
+int i;
+for (i = 0; i <= 9; i++)
 {
-if (x != 2 && x != 4)
+if (i != 2 && i != 4)
 {
-_putchar(x);
-x++;
+_putchar(i + '0');
 }
 }
 _putchar('\n');
