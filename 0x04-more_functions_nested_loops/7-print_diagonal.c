@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - blablabla
+ * print_diagonal - blablabla
  *
  * @n: blablabla
  *
