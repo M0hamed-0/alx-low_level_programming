@@ -1,14 +1,13 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include "main.h"
 
-/* betty style doc for function main goes there */
-int main(void)
+void positive_or_negative(int i);
 {
-	int n;
+	if (i > 0)
+		putchar+;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
+	else if (i < 0)
+		putchar-;
+
+	else
+		putchar 0;
 }
