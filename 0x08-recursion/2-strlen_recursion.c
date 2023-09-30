@@ -2,6 +2,7 @@
 /**
 * _strlen_recursion - bla bla bla
 * @s: bla bla bla
+* return: bla bla bla
 */
 int _strlen_recursion(char *s)
 {
@@ -11,5 +12,5 @@ if (*s)
 SL++;
 SL += _strlen_recursion(s + 1);
 }
-return SL;
+return (SL);
 }
