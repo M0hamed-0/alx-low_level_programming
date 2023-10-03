@@ -1,2 +1,8 @@
 #include "main.h"
-char *_strcpy(char *dest, char *src){}
+/**
+ * _strcpy - bla bla bla
+ * @dest: bla bla
+ * @src: bla bla
+ * Return: 0
+ */
+char *_strcpy(char *dest, char *src) {}

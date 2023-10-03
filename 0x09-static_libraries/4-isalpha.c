@@ -1,2 +1,7 @@
 #include "main.h"
-int _isalpha(int c){}
+/**
+ * _isalpha - bla bla bla
+ * @c: bla bla
+ * Return: 0
+ */
+int _isalpha(int c) {}

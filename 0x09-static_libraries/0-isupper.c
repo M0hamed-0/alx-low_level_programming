@@ -1,2 +1,7 @@
 #include "main.h"
-int _isupper(int c){}
+/**
+ * _isupper - bla bla bla
+ * @c: bla bla
+ * Return: 0
+ */
+int _isupper(int c) {}

@@ -1,2 +1,8 @@
 #include "main.h"
-unsigned int _strspn(char *s, char *accept){}
+/**
+ * _strspn - bla bla bla
+ * @s: bla bla
+ * @accept: bla bla
+ * Return: 0
+ */
+unsigned int _strspn(char *s, char *accept) {}

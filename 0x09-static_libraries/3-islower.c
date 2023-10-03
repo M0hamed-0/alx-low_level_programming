@@ -1,2 +1,7 @@
 #include "main.h"
-int _islower(int c){}
+/**
+ * _islower - bla bla bla
+ * @c: bla bla
+ * Return: 0
+ */
+int _islower(int c) {}
