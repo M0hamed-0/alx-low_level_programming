@@ -7,7 +7,7 @@
  * Return: bla
  */
 
-int main(int __attribute__((unused)) argc, char* __attribute__((unused)) argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
 printf("%s\n", argv[0]);
 return (0);
