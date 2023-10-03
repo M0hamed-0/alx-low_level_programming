@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - bla bla bla
- *
+ * @argc: bla bla bla
+ * @argv: bla bla bla
  */
 int main(int __attribute__((unused)) argc, char* __attribute__((unused)) argv[])
 {
