@@ -23,9 +23,9 @@ if (x == NULL)
 return (NULL);
 }
 
-for (y = 0; y <= i; y++)
+for (y = 0; y < i; y++)
 {
-x[i] = str[i];
+x[y] = str[y];
 }
 return (x);
 }
