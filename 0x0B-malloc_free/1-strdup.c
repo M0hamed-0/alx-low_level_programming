@@ -12,7 +12,7 @@ char *x;
 unsigned int i;
 unsigned int y;
 
-for (i = 0; str[i] != "\0"; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 ;
 }
@@ -27,6 +27,7 @@ for (y = 0; y < i; y++)
 {
 x[y] = str[y];
 }
+x[y] = '\0';
 return (x);
 }
 
