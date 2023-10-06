@@ -41,7 +41,7 @@ return (NULL);
 for (a = 0; a < x; a++)
 z[a] = s1[a];
 
-for (b = 0; b < x; b++)
+for (b = 0; b < y; b++)
 z[a + b] = s1[b];
 
 z[c] = '\0';
