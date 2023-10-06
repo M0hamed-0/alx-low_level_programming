@@ -14,7 +14,7 @@ unsigned int x;
 unsigned int y;
 unsigned int a;
 unsigned int b;
-unsigned int c;
+int c;
 char *z;
 c = x + y;
 
@@ -43,7 +43,7 @@ z[a] = s1[a];
 for (b = x; b < c; b++)
 z[a + b] = s1[a + b];
 
-z[c] = '\0';
+z[x] = '\0';
 
 return (z);
 }
