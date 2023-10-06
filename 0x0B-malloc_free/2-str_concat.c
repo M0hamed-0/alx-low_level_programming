@@ -11,8 +11,9 @@ char *str_concat(char *s1, char *s2)
 {
 
 unsigned int x, y, a, b;
-unsigned int c = x + y;
+unsigned int c;
 char *z;
+c = x + y;
 
 if (s1 == NULL)
 return (NULL);
@@ -43,5 +44,3 @@ z[c] = '\0';
 
 return (z);
 }
-
-
