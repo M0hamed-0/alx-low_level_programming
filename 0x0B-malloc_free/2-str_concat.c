@@ -38,10 +38,10 @@ z = malloc(c + 1);
 if (z == NULL)
 return (NULL);
 
-for (a = 0; a < x; a++)
+for (a = 0; a <= x; a++)
 z[a] = s1[a];
 
-for (b = x; b < c; b++)
+for (b = a; b < c; b++)
 z[a + b] = s1[a + b];
 
 z[c] = '\0';
