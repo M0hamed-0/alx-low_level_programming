@@ -10,7 +10,10 @@
 char *str_concat(char *s1, char *s2)
 {
 
-unsigned int x, y, a, b;
+unsigned int x;
+unsigned int y;
+unsigned int a;
+unsigned int b;
 unsigned int c;
 char *z;
 c = x + y;
