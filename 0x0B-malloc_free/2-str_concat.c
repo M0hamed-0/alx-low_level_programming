@@ -14,7 +14,7 @@ unsigned int x;
 unsigned int y;
 unsigned int a;
 unsigned int b;
-int c;
+unsigned int c;
 char *z;
 c = x + y;
 
