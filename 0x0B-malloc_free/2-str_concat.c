@@ -42,8 +42,10 @@ for (a = 0; a <= x; a++)
 z[a] = s1[a];
 
 for (b = a; b < c; b++)
-z[a + b] = s1[a + b];
-
+{
+z[a] = s1[a];
+a++;
+}
 z[c] = '\0';
 
 return (z);
