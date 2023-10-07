@@ -10,8 +10,8 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 
-	unsigned int *x;
-	unsigned int i = 0;
+	unsigned int *x = 0;
+	unsigned int i;
 
 	if (size == 0)
 	{
