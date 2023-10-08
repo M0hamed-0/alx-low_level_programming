@@ -25,7 +25,7 @@ for (y = min; y < max; z++)
 y++;
 }
 
-x = malloc(sizeof(int) * z + 1);
+x = malloc(sizeof(int) * (z + 1));
 if (x == NULL)
 {
 	return (NULL);
