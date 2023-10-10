@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  *  main - bla bla
+ * Return: bla
 */
-void main(void)
+int main(void)
 {
 	printf(__FILE__"\n");
+	return (0);
 }
