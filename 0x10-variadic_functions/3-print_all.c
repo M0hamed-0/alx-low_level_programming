@@ -13,11 +13,16 @@ void print_all(const char * const format, ...)
 	va_list args;
 	char *separator = "";
 	unsigned int i = 0;
+	char *str;
 
 	va_start(args, format);
 
 	while (format && format[i])
 	{
+		separator = "";
+		if (format[i + 1] != '\0')
+			separator = ", ";
+
 		switch (format[i])
 		{
 			case 'c':
@@ -31,7 +36,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				{
-					char *str = va_arg(args, char *);
+					str = va_arg(args, char *);
 				if (str == NULL)
 				{
 					str = "(nil)";
@@ -39,11 +44,7 @@ void print_all(const char * const format, ...)
 				}
 				}
 				break;
-			default:
-				i++;
-				continue;
 		}
-		separator = ", ";
 		i++;
 	}
 
