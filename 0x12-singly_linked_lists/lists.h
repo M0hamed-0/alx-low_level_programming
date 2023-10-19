@@ -5,11 +5,17 @@
 #include "stdlib.h"
 #include "string.h"
 
+/**
+ * struct list_s - is a single linked list
+ * @str: bla bla
+ * @len: bla bla
+ * @next: bla bla
+ */
 typedef struct list_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
 
