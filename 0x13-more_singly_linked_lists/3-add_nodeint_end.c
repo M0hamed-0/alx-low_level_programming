@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * add_nodeint_end - function that adds a new node at
- * the end of a list_t list.
+ * the end of a listint_t list.
  * @head: pointer to struct
  * @n: pointer to integer
  * Return: the number of nodes
